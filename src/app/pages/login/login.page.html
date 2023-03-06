@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="theme-bg"></div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="upper_div">
+          <ion-icon name="lock-closed"></ion-icon>
+        </div>
+        <ion-item lines="none">
+          <!-- <ion-label>Enter Email</ion-label> -->
+          <ion-icon ios="mail-outline" md="mail-sharp" slot="start" color="light" class="ion-margin-end"></ion-icon>
+          <ion-input type="email" [(ngModel)]="email" placeholder="Enter your email here.."></ion-input>
+        </ion-item>
+        <ion-item lines="none">
+          <!-- <ion-label position="floating">Enter password</ion-label> -->
+          <ion-icon ios="lock-closed-outline" md="lock-closed-sharp" slot="start" color="light" class="ion-margin-end"></ion-icon>
+          <ion-input type="password" [(ngModel)]="password" placeholder="Enter your password here.."></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col style="text-align: -webkit-center;">
+        <ion-button style="width: 92%;" expand="block" shape="round" [disabled]="!email || !password" (click)="login()">Log in</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
