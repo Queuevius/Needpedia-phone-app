@@ -12,8 +12,8 @@ import { first } from 'rxjs/operators';
 })
 export class ApiService {
 
-  // URL = 'http://192.168.8.101:3000/api/v1/auth/';
-  URL = 'https://needpedia.org/api/v1/auth/';
+  // URL = 'https://419a-34-236-68-37.ngrok-free.app/api/v1/';
+  URL = 'https://needpedia.org/api/v1/';
 
 
   private dataObserved = new BehaviorSubject<any>('');

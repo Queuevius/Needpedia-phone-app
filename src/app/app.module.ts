@@ -6,7 +6,6 @@ import { ApiService } from './services/api.service';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { Push } from '@ionic-native/push/ngx';
 import { Device } from '@ionic-native/device/ngx';
 import { NativeGeocoder } from '@ionic-native/native-geocoder/ngx';
 
@@ -21,7 +20,6 @@ import { NativeGeocoder } from '@ionic-native/native-geocoder/ngx';
   ],
   providers: [
     ApiService,
-    Push,
     Device,
     NativeGeocoder,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
