@@ -1,0 +1,76 @@
+# Ignore all .log files
+*.log
+
+# Ignore all .tmp files
+*.tmp
+
+# Android Google Services configuration file
+android/app/google-services.json
+
+# iOS Google Services configuration file
+ios/Runner/GoogleService-Info.plist
+
+
+# Flutter specific files
+# Ignore build output directories
+/build/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Flutter.podspec
+/.dart_tool/
+/.packages
+/.flutter-plugins
+/.flutter-plugins-dependencies
+
+# iOS specific
+ios/Pods/
+/ios/Runner.xcworkspace
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/.symlinks/
+/ios/Flutter/ephemeral/
+
+# Android specific
+/android/.gradle
+/android/app/google-services.json  # Google Services JSON file (contains sensitive data)
+/android/app/build
+/android/local.properties
+/android/app/debug.keystore  # Keystore file for signing
+
+# Dart and Package specific
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# VS Code settings (if using VS Code)
+/.vscode/
+
+# IntelliJ/Android Studio specific
+.idea/
+*.iml
+
+# Sensitive keys or configuration
+.env  # If you're using environment variables for sensitive data
+
+# macOS specific (if using macOS for development)
+macos/Flutter/ephemeral/
+build/macos/
+
+# Linux specific (if using Linux for development)
+linux/flutter/ephemeral/
+build/linux/
+
+# Web specific (if building for web)
+build/web/
+
+# Windows specific (if building for Windows)
+build/windows/
+windows/flutter/ephemeral/
+
+# Coverage results
+coverage/
+
+# Lock files
+pubspec.lock  # Only if you want to regenerate packages on each machine (optional)
