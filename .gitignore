@@ -45,7 +45,6 @@ ios/.symlinks/
 .flutter-plugins-dependencies
 
 # VS Code settings (if using VS Code)
-/.vscode/
 
 # IntelliJ/Android Studio specific
 .idea/
@@ -74,3 +73,7 @@ coverage/
 
 # Lock files
 pubspec.lock  # Only if you want to regenerate packages on each machine (optional)
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
